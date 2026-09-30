@@ -1,0 +1,58 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Localization support
+  flutter_localizations:
+    sdk: flutter
+
+  # Default dependencies
+  cupertino_icons: ^1.0.8
+
+  # Additional packages
+  intl: 0.20.2 
+  material_color_utilities: ^0.11.1
+  vector_math: ^2.1.4
+
+  # Font Awesome icons
+  font_awesome_flutter: ^10.6.0
+
+  # Google Maps
+  google_maps_flutter: ^2.2.0
+
+  permission_handler: ^11.3.1
+  
+  # --- UPDATED SECTIONS ---
+  # Upgraded to compatible versions
+  flutter_map: ^7.0.0 
+  latlong2: ^0.9.1 
+  # ------------------------
+
+  animate_gradient: ^0.0.4
+  google_fonts: ^4.0.4
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - lib/l10n/
